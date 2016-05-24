@@ -17,7 +17,6 @@ List of packages. The Github Exclusives are personal/specific usecase packages t
 * **[steam-appmanifest](https://aur4.archlinux.org/packages/steam-appmanifest-git/)** [[site]](https://github.com/dotfloat/steam-appmanifest)
 * **[trackma](https://aur.archlinux.org/packages/trackma-git/)** [[site]](http://z411.github.io/trackma/)
 
-<<<<<<< HEAD
 ####Github exclusives:
 * **[CS50 C Library](cs50-library-c/PKGBUILD)** [[site]](https://manual.cs50.net/library/)
 
