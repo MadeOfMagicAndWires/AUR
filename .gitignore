@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+# package src/pkg archives, downloaded sources
+*.tar*
+*.tgz
+*.zip
+
+# signed sources
+*.asc
+*.sig
+
+# subfolders, e.g. source or built package trees, vcs
+*/**/
+
+# backup files
+*~
+*.bak
+=======
+pkg
+src
+*xpi
+*tar*
+>>>>>>> 501fe52... Update to 5.0.7

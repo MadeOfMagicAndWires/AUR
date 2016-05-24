@@ -1,0 +1,14 @@
+pkgbase = cs50-library-c
+	pkgdesc = a C library designed to simplify tasks for user input
+	pkgver = 5
+	pkgrel = 2
+	url = https://manual.cs50.net/library/
+	arch = any
+	groups = cs50-appliance
+	license = BSD
+	makedepends = unzip
+	source = http://mirror.cs50.net/library50/c/library50-c-5.zip
+	sha256sums = 43cdcc33763cb1347a89cebf468642283220aacdf47aee1fccb10fc57e9c0211
+
+pkgname = cs50-library-c
+
