@@ -31,9 +31,11 @@ _EOF_
 hooks() {
     echo "Adding commit hooks..."
     shopt -s nullglob
+    cd "git-hooks"
     for hook in *.hook; do
-        ln -sf "$(pwd)/${hook}" ".git/hooks/${hook%.hook}"
+        ln -svf "$(pwd)/${hook}" "../.git/hooks/${hook%.hook}"
     done
+    cd ..
 }
 
 if [[ $# -eq 0 ]]; then
