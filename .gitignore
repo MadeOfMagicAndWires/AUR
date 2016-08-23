@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # package src/pkg archives, downloaded sources
 *.tar*
 *.tgz
@@ -14,9 +13,7 @@
 # backup files
 *~
 *.bak
-=======
 pkg
 src
 *xpi
 *tar*
->>>>>>> 501fe52... Update to 5.0.7
