@@ -1,4 +1,4 @@
-#PKGBUILDS for the [AUR](https://aur.archlinux.org), or not.
+#PKGBUILDS for the [AUR](https://aur.archlinux.org) and other places.
 
 A collection of PKGBUILDs I maintain. Most of them are on the AUR as well.
 
@@ -15,7 +15,6 @@ List of packages. The Github Exclusives are personal/specific usecase packages t
 + **[ptask](https://aur.archlinux.org/packages/ptask-git/)** [[site]](http://wpitchoune.net/ptask)
 + **[python2-inotifyx](https://aur.archlinux.org/packages/python2-inotifyx/)** [[site]](http://www.alittletooquiet.net/software/inotifyx/)
 + **[steam-appmanifest](https://aur4.archlinux.org/packages/steam-appmanifest-git/)** [[site]](https://github.com/dotfloat/steam-appmanifest)
-+ **[timew](https://aur.archlinux.org/packages/timew/)** [[site]](http://taskwarrior.org/docs/timewarrior/)
 + **[trackma](https://aur.archlinux.org/packages/trackma-git/)** [[site]](http://z411.github.io/trackma/)
 
 ####Github exclusives:
