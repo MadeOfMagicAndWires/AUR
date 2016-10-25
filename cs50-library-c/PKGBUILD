@@ -1,7 +1,7 @@
 # Maintainer: Joost Bremmer <toost dot b at gmail dot com>
 pkgname=cs50-library-c
 pkgver=5
-pkgrel=2
+pkgrel=3
 pkgdesc="a C library designed to simplify tasks for user input"
 arch=(any)
 url="https://manual.cs50.net/library/"
@@ -30,7 +30,7 @@ package()
 {
   install -D -m 0644 "${srcdir}/library50-c-${pkgver}/cs50.h"    "${pkgdir}/usr/include/cs50.h"
   install -D -m 0644 "${srcdir}/library50-c-${pkgver}/libcs50.a" "${pkgdir}/usr/lib/libcs50.a"
-  install -D -m 0644 "${srcdir}/library50-c-${pkgver}/LICENSE"   "${pkgdir}/usr/share/licences/${pkgname}/LICENSE"
+  install -D -m 0644 "${srcdir}/library50-c-${pkgver}/LICENSE"   "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
 

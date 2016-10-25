@@ -1,7 +1,7 @@
 pkgbase = cs50-library-c
 	pkgdesc = a C library designed to simplify tasks for user input
 	pkgver = 5
-	pkgrel = 2
+	pkgrel = 3
 	url = https://manual.cs50.net/library/
 	arch = any
 	groups = cs50-appliance
