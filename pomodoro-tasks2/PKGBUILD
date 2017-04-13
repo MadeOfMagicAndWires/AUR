@@ -1,0 +1,32 @@
+# Maintainer: Joost Bremmer <toost dot b at gmail dot com>
+pkgname=pomodoroTasks2
+pkgver=0.5
+pkgrel=1
+pkgdesc="Systray app for pomodoro with taskwarrior"
+arch=('any')
+url="https://github.com/liloman/pomodoroTasks2"
+license=('GPL')
+depends=('task'
+         'timew'
+         'python2'
+         'python2-dbus'
+         'python2-tasklib'
+         'python2-gobject'
+         'python2-setuptools')
+makedepends=('python2')
+source=("$pkgname-$pkgver.tar.gz"::"https://github.com/liloman/$pkgname/archive/$pkgname-$pkgver-$pkgrel.tar.gz")
+sha256sums=('2576ae6e9af516b90dabaff978aa0ca55bdcd8658f9933741cdb2fccb7870841')
+
+
+
+prepare() {
+  cd "$srcdir/$pkgname-$pkgname-$pkgver-$pkgrel"
+  find . -type f -iname "*.py" -exec \
+    sed -e "s/python/python2/g" -i {} \;
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgname-$pkgver-$pkgrel"
+  python2 setup.py install --root="${pkgdir}/" --optimize=1
+}
+# vim: set ts=2 sw=2 et:

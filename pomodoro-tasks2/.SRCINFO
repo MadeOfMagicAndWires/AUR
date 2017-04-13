@@ -1,0 +1,20 @@
+pkgbase = pomodoroTasks2
+	pkgdesc = Systray app for pomodoro with taskwarrior
+	pkgver = 0.5
+	pkgrel = 1
+	url = https://github.com/liloman/pomodoroTasks2
+	arch = any
+	license = GPL
+	makedepends = python2
+	depends = task
+	depends = timew
+	depends = python2
+	depends = python2-dbus
+	depends = python2-tasklib
+	depends = python2-gobject
+	depends = python2-setuptools
+	source = pomodoroTasks2-0.5.tar.gz::https://github.com/liloman/pomodoroTasks2/archive/pomodoroTasks2-0.5-1.tar.gz
+	sha256sums = 2576ae6e9af516b90dabaff978aa0ca55bdcd8658f9933741cdb2fccb7870841
+
+pkgname = pomodoroTasks2
+
