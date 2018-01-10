@@ -16,6 +16,7 @@ depends=('task<=2.5.1'
 makedepends=('git'
              'help2man'
 			 'asciidoc')
+checkdepends=('cppcheck')
 source=("$pkgname::git+http://git.wpitchoune.net/${pkgname%-git}.git"
         'task-2.5.1-compat.patch')
 sha512sums=('SKIP'
