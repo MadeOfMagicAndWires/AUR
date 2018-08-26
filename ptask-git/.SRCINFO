@@ -6,6 +6,7 @@ pkgbase = ptask-git
 	arch = i686
 	arch = x86_64
 	license = GPL2
+	checkdepends = cppcheck
 	makedepends = git
 	makedepends = help2man
 	makedepends = asciidoc
